@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <main>
+     
+    <img src="IMG/logo.png" alt="ISIL LOGO">
+
+     <h3 id="problema">3.	Diseñar un programa que permita calcular los 4 primeros números pares para posteriormente calcular su media aritmética.</h3>
+
+
+     <div id="resolucion">
+    <script>
+
+        let suma=0;
+        let n=1;
+        let media;
+
+
+        while (n<=8) {
+            if(n%2==0){
+                document.write(n+" - ");
+                suma+=n;
+                media=suma/4;
+            }
+            n++;      
+            }
+
+            document.write("<br>"+"La suma es: "+suma+ "<br>")
+            document.write("La media Aritmética es: "+media)
+
+
+
+    </script>
+    </div>
+    
+    <footer>
+        <h4>Sebastian Huallanca Cabrera / Evaluacion Permanente 3 / Introduccion a la Programación</h4>
+    </footer>
+
+    </main>
+    
+</body>
+</html>
